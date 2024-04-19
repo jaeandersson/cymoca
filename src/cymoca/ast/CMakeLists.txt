@@ -23,4 +23,4 @@ target_include_directories(cymoca_ast PUBLIC
         )
 
 target_compile_options(cymoca_ast PUBLIC
-        -pedantic -Werror -Weffc++ -Wall -Wextra -Wno-unused-parameter)
+        -pedantic -Werror -Wall -Wextra -Wno-unused-parameter)

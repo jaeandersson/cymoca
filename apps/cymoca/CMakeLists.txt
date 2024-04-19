@@ -10,7 +10,7 @@ target_link_libraries(cymoca
         stdc++fs
         )
 
-target_compile_options(cymoca PRIVATE -pedantic -Werror -Weffc++ -Wall -Wextra)
+target_compile_options(cymoca PRIVATE -pedantic -Werror -Wall -Wextra)
 target_include_directories(cymoca SYSTEM PRIVATE
         ${CYMOCA_SOURCE_DIR}/src
         ${CYMOCA_BINARY_DIR}/src

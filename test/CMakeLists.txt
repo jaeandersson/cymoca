@@ -20,7 +20,7 @@ include_directories(
     ${CYMOCA_SOURCE_DIR}/src
     )
 
-add_compile_options(-pedantic -Werror -Weffc++ -Wall -Wextra -Wno-unused-parameter)
+add_compile_options(-pedantic -Werror -Wall -Wextra -Wno-unused-parameter)
 
 # test parse
 add_executable(test_parse

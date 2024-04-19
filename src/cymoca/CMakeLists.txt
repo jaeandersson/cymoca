@@ -25,4 +25,4 @@ target_include_directories(cymoca_compiler PRIVATE
         )
 
 target_compile_options(cymoca_compiler PRIVATE
-        -pedantic -Werror -Weffc++ -Wall -Wextra -Wno-unused-parameter)
+        -pedantic -Werror -Wall -Wextra -Wno-unused-parameter)
